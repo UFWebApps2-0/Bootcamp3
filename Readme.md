@@ -79,36 +79,25 @@ As you develop the solution to this assignment you will need to complete at leas
 
 *Note: This is a big assignment, start early and work on getting simple things working first. 
 
-1. Install Bootstrap 5, [there are 3  ways](https://getbootstrap.com/docs/5.3/getting-started/download/):
-   1. npm install bootstrap (or yarn add bootstrap) - *Recommended*
-      - Install Bootstrap in your Node.js powered apps with [the npm package](https://www.npmjs.com/package/bootstrap):
-        - `npm install bootstrap@5.3.2`
-      - Install Bootstrap in your Node.js powered apps with [the yarn package](https://classic.yarnpkg.com/en/package/bootstrap):
-        - `yarn add bootstrap@5.3.2`
-      
-   2. CDN via jsDelivr
-       - simply add the link in head tag and script before closing body tag
-       - see [here](https://getbootstrap.com/docs/5.3/getting-started/download/#alternative-cdns) for alternative CDNs
-
-   3. download - **great for project** not recommended for Bootcamp #3 project
-
-2. Use the [**create-vite**](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) tool with the React template to help you get started with a scaffold for your first React project.
+1. Use the [**create-vite**](https://vitejs.dev/guide/#scaffolding-your-first-vite-project) tool with the React template to help you get started with a scaffold for your first React project.
    - Run one of the following commands in terminal to create a starter application my-app (note: you can change this to bootcamp3 if you like.)
    - `npm create vite@latest my-app --template react`
    - `yarn create vite my-app --template react`
    - `pnpm create vite my-app --template react`
 
-3. After it is installed, you should be able to cd into the project directory with `cd my-app`.
+2. After it is installed, you should be able to cd into the project directory with `cd my-app`.
 
-4. Inside the newly created project, you can run some built-in commands:
+3. Inside the newly created project, you can run some built-in commands:
    1. `npm install` or `yarn install` to install the dependencies.
-   2. `npm start` or `yarn start` to run the app in development mode.
+   2. `npm run dev` or `yarn run dev` to run the app in development mode.
 
-5. It should auto-open http://localhost:5173 (because 5173 is [leetspeak](https://en.wikipedia.org/wiki/Leet#:~:text=Leet%20(or%20%221337%22),via%20reflection%20or%20other%20resemblance.) for vite) in the browser after it starts up a server for you. If a browser doesn't open up, copy and paste the link into your web browser with a starter page.
+4. It should auto-open http://localhost:5173 (because 5173 is [leetspeak](https://en.wikipedia.org/wiki/Leet#:~:text=Leet%20(or%20%221337%22),via%20reflection%20or%20other%20resemblance.) for vite) in the browser after it starts up a server for you. If a browser doesn't open up, copy and paste the link into your web browser with a starter page.
 
-6. After this you should open the folder and replace the `src` file with the `src` file from this Bootcamp #3 github repo. You should then be able to see a listing of the building codes and buildings, search/filter text box and space to output details about your project.
+5. After this you should open the folder and replace the `src` file with the `src` file from this Bootcamp #3 github repo. You should then be able to see a listing of the building codes and buildings, search/filter text box and space to output details about your project.
 
-7. Use the given starter code to create a frontend interface with React.js to display listings, as well as the ability to add new listings and delete old ones.
+6. Install Bootstrap 5 with `npm install bootstrap@5.3.2` or `yarn add bootstrap@5.3.2`. You might need to open another terminal to do this while your app is running.
+
+7. Use the given starter code and Bootstrap's styled components classes to create a frontend interface with React.js to display listings, as well as the ability to add new listings and delete old ones.
 
 **See Development Goals** above for specific implementation details for this project.
 
